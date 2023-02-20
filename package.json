@@ -1,0 +1,24 @@
+{
+  "name": "express-web-server",
+  "version": "1.0.0",
+  "description": "![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehssss/express-web-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehssss/express-web-server/issues"
+  },
+  "homepage": "https://github.com/Ehssss/express-web-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
