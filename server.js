@@ -7,6 +7,10 @@ const port = 3000;
 
 app.use(express.static('public')); /*  Serves static content from a directory known as 'public'. Loads static files (html, stylesheets, images etc) */
 
+app.get("/", (req, res) => {
+    res.send('Successful GET request made and testig using Postman ')
+});
+
 app.listen(port, () => { /*  Binds connection between the host (this server) and the port number assigned*/
     console.log(`Server listening at http://localhost:${port}`)
 })
